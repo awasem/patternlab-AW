@@ -1,0 +1,142 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+/**
+ * Button
+ */
+.c-btn {
+	background-color: $primary-blue;
+    border: none;
+    color: white;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    min-width: 144px;
+
+	&:hover, &:focus {
+		background-color: $secondary-blue; 
+    	color: $primary-white;
+	}
+
+	/**
+	 * Disabled button
+	 */
+	&.disabled {
+		background-color: $medium-gray-1;
+    	border: none;
+    	color: $primary-white;
+	}
+	
+	&.disabled:hover {
+		background-color: $dark-gray; 
+    	color: $primary-white;
+	}
+}
+.c-btn-secondary {
+	background-color: $primary-white;
+    border: 1px solid $light-gray-0;
+    color: $medium-gray-2;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    min-width: 200px;
+
+	&:hover, &:focus {
+		background-color: $primary-white;
+    	border: 1px solid $medium-gray-1;
+    	color: $dark-gray;
+	}
+
+	/**
+	 * Disabled button
+	 */
+	&.disabled {
+		background-color: $light-gray-00;
+    	border: 1px solid $light-gray-0;
+    	color: $medium-gray-1;
+	}
+	
+	&.disabled:hover {
+		background-color: $light-gray-00;
+    	border: 1px solid $primary-white;
+    	color: $primary-white;
+	}
+}
+
+/**
+ * Small button
+ */
+.c-btn-small {
+	padding: $pad-half;
+}
+
+/**
+ * Large button
+ */
+.c-btn-large {
+	padding: $pad-half;
+	text-transform: uppercase;
+	background: $color-gray-50;
+	font-size: 1.4rem;
+	font-weight: normal;
+}
+
+/**
+ * Text button
+ */
+.c-text-btn {
+	position: relative;
+	background: none;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+    &:after {
+	    position: absolute;
+		content: "";
+		height: 20px;
+		width: 20px;
+		background: url("../../../images/icon-arrowhead.svg") no-repeat;
+	    top: 7px;
+		right: -26px;
+		transition: all 0.2s ease;
+	}
+	
+	&:hover, &:focus {
+	    color: $color-gray-73;
+	    
+	    &:after {
+		    right: -28px;
+	    }
+    }
+    
+    .c-block-media--small & {
+	    font-size: 1rem;
+	}
+}
+
+/**
+ * Button on overlay
+ */
+ 
+ .c-btn--overlay {
+	 background: $color-gray-35;
+ }

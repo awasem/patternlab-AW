@@ -1,0 +1,59 @@
+.c-tree-nav {
+
+
+}
+
+
+.c-tree-nav__item {
+    height: 72px;
+    padding-left: 16px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, min-content);
+    grid-gap: 8px;
+
+}
+
+.c-tree-nav__link {
+    width: 200px;
+
+}
+
+.c-tree-nav__link--is-active {
+
+}
+
+.c-tree-nav__subnav {
+    
+    margin-left: 48px;
+    
+}
+
+.c-tree-nav__subnav-item {
+    color: $primary-white;
+    list-style-type: none;
+    height: 32px;
+    padding-left: 8px;
+    
+    align-items: center;
+    text-align: left;
+    display: grid;
+    align-items: center;
+    border-left: 2px solid $accent-1;
+    
+    
+
+}
+
+
+.c-tree-nav__subnav-link {
+    
+}
+
+.c-tree-nav__subnav--is-active {
+
+}
+
+.c-tree-nav__subnav-item {
+    
+}

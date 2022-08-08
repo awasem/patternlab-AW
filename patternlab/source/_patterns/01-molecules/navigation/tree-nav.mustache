@@ -1,0 +1,39 @@
+
+<nav>
+  <div class="c-nav-header"> 
+  <div class="c-nav-hamburger"> {{> atoms-ic-bars}}</div>
+  {{> atoms-logo }}
+  </div>
+  {{#navigation}}
+    <ul class="c-noBullets c-tree-nav">
+      {{#treeNavItems}}
+        <li class="c-tree-nav__item">
+          <div class="c-nav-icon">
+          {{#treeNavIcon}}
+          {{#icon}} 
+            <img src="{{src}}" alt="{{alt}}">
+          {{/icon}}
+          {{/treeNavIcon}} 
+
+          
+          </div>
+          <a class="c-tree-nav__link {{modifyer}}" 
+          href="{{ url }}">{{ label }}</a>
+        </li>
+          {{#treeSubNav}}
+            <ul class="c-tree-nav__subnav">
+              {{#treeSubNavItems}}
+                <li class="c-tree-nav__subnav-item"> 
+                <a href="{{ url }}"" class="c-tree-nav__subnav-link">{{ label }}
+                </a><!--endc-tree-nav__subnav-link   -->
+                </li> <!--end c-tree-nav__subnav-item  -->
+                {{/treeSubNavItems}}
+                </ul><!--end c-tree-nav__subnav  -->
+          {{/treeSubNav}}
+        {{#treeNavHR}}
+        <hr>
+        {{/treeNavHR}}
+      {{/treeNavItems}}
+    </ul><!--end c-noBullets c-tree-nav  -->
+  {{/navigation}}
+</nav>

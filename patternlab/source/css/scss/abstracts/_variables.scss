@@ -1,0 +1,617 @@
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+
+
+
+
+
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+
+/*
+ * 1) Color variables involve a two-tier system to keep colors in sync. The
+ *    first tier defines the brand and neutral colors, and the second tier
+ *    defines the application of those colors.
+ */
+
+/*
+ * Brand Colors
+ * 1) Brand color variables use English names to define colors to make palettes easier to
+ *    identify. Names are generated using this tool: http://chir.ag/projects/name-that-color/
+ * 2) Brand color variables should typically not be used directly in Sass partials. Instead, use
+ *    second-tier application colors.
+ *
+ */
+//  $color-brand-green: #5C832F;
+//  $color-brand-green-dark: red;
+
+ /*  Colors
+    ========================================================================= */
+
+$black: #000000 !default;
+
+$white: #ffffff !default;
+
+
+
+
+/*  RB 130 Brand Reflex Blue
+================================= 
+    */
+$primary-blue: #002496;
+
+
+
+/*  RB140
+================================= 
+    */
+$secondary-blue: #002084;
+
+/*  RB160
+================================= 
+    */
+$tertiary-blue: #00165C;
+
+
+/*  RB 170 Midnight Blue
+================================= 
+    */
+$primary-bg: #001146;
+
+/*  BB0
+================================= 
+    */
+$secondary-bg: #F2F9FF;
+
+/*  White
+================================= 
+    */
+$primary-white: #FFFFFF;
+
+/*  RB100
+================================= 
+    */
+$accent-1: #113BC2;
+
+/*  BB Gray 80 **********
+================================= 
+    */
+$accent-2: #D4D7D9;
+
+/*  Medium Gray 1 BB Gray 150
+================================= 
+    */
+$medium-gray-1: #717274;
+
+/*  Dark Gray 1 BB Gray 180
+================================= 
+    */
+$dark-gray: #2f2f30;
+
+/*  Light Gray 0 BB Gray 80 *********
+================================= 
+    */
+$light-gray-0: #d4d7d9;
+
+/*  Dark Gray 1 BB Gray 160
+================================= 
+    */
+$medium-gray-2: #5c5d5e;
+
+/*  Light Gray 00 BB Gray 30
+================================= 
+    */
+$light-gray-00: #f1f5f8;
+
+
+
+/*  Destructive/Warning Red
+================================= 
+    */
+$red-140: #D0021B;
+$red-100: #D0021B;
+$red-60: #F1495D;
+$red-0: #fff2f3;
+
+
+/* Warning Orange 
+================================= 
+    */
+$org-warning: #D14900;
+
+/* Orange 80 
+================================= 
+    */
+$org-80: #F59006;
+
+/* Orange 0 
+================================= 
+    */
+$org-0: #FFF9F2;
+
+
+/* Green 170 
+================================= 
+    */
+$grn-170: #02490A;
+
+/* Green 140 
+================================= 
+    */
+$grn-140: #068A15;
+
+/* Green 0 
+================================= 
+    */
+$grn-0: #F2FFF3;
+
+/* Green Dark Mode 
+================================= 
+    */
+$grn-0: #6BCB76;
+
+/* BB100 Brand Bright Blue ================================= 
+    */
+$bright-blue: #0073CF;
+
+/* Penske Yellow 
+================================= 
+    */
+$penske-yellow: #fecb00;
+
+/* PY 60
+================================= 
+    */
+$py-60: #FFD41C;
+
+/* PY 30
+================================= 
+    */
+$py-30: #FFED7C;
+
+/* PY 2.5
+================================= 
+    */
+$py-2-5: #FFED7C;
+
+/* RB 180
+================================= 
+    */
+$rb-180: #000B2F;
+
+/* RB 170
+================================= 
+    */
+$rb-170: #001146;
+
+/* RB 160
+================================= 
+    */
+$rb-160: #00165C;
+
+/* RB 150
+================================= 
+    */
+$rb-150: #001B71;
+
+/* RB 140
+================================= 
+    */
+$rb-140: #002084;
+
+/* RB 130
+================================= 
+    */
+$rb-130: #002496;
+
+/* RB 100
+================================= 
+    */
+$rb-100: #113BC2;
+
+/* BB 150
+================================= 
+    */
+$bb-150: #004279;
+
+/* BB 130
+================================= 
+    */
+$bb-130: #0058a1;
+
+/* BB 110
+================================= 
+    */
+$bb-110: #0058a1;
+
+/* Bright Blue BB 100
+================================= 
+    */
+$bb-100: #0073CF;
+
+/* Bright Blue BB 50
+================================= 
+    */
+$bb-50: #5FB3F5;
+
+/* Bright Blue BB 30
+================================= 
+    */
+$bb-30: #96D0FC;
+
+/* Bright Blue BB 10
+================================= 
+    */
+$bb-10: #D2ECFF;
+
+/* Bright Blue BB 2.5
+================================= 
+    */
+$bb-2-5: #EAF6FF;
+
+/* Bright Blue BB 0
+================================= 
+    */
+$bb-0: #F2F9FF;
+
+/* BB 190
+================================= 
+    */
+$bb-gray-190: #171718;
+
+/* BB Gray 180
+================================= 
+    */
+$bb-gray-180: #171718;
+
+/* BB Gray 170
+================================= 
+    */
+$bb-170: #464747;
+
+/* BB Gray 160
+================================= 
+    */
+$bb-160: #5C5D5E;
+
+/* BB Gray 150
+================================= 
+    */
+$bb-150: #717274;
+
+/* BB Gray 130
+================================= 
+    */
+$bb-130: #959899;
+
+/* BB Gray 110
+================================= 
+    */
+$bb-110: #B3B6B8;
+
+/* BB Gray 80
+================================= 
+    */
+$bb-gray-80: #D4D7D9;
+
+/* BB Gray 50
+================================= 
+    */
+$bb-gray-50: #E8ECEF;
+
+/* BB Gray 40
+================================= 
+    */
+$bb-gray-40: #EDF1F4;
+
+/* BB Gray 30
+================================= 
+    */
+$bb-gray-30: #F1F5F8;
+
+/* BB Gray 20
+================================= 
+    */
+$bb-gray-20: #F4F8FB;
+
+/* BB Gray 10
+================================= 
+    */
+$bb-gray-10: #F7FAFD;
+
+/* P 50
+================================= 
+    */
+$p-gray-50: #EFEFEF;
+
+/* P 40
+================================= 
+    */
+$p-gray-40: #F4F4F4;
+ 
+/* P 30
+================================= 
+    */
+$p-gray-30: #F8F8F8;
+
+/* P 20
+================================= 
+    */
+$p-gray-20: #FBFBFB;
+
+/* P 10
+================================= 
+    */
+$p-gray-10: #FDFDFD;
+ 
+
+/*
+ * Neutral Colors
+ * 1) Neutral color variables use a numbered system to define variables for better maintainability.
+ *    "$color-gray-10" means "10% gray", which is a gray closer to white than to black. For more info
+ *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
+ */
+$color-white: #fff;
+$color-gray-02: #f7f9f9;
+$color-gray-15: #d9d9d9;
+$color-gray-35: #a5a5a5;
+$color-gray-50: #808080;
+$color-gray-65: #595959;
+$color-gray-73: #444444;
+$color-gray-87: #222222;
+$color-black: #000;
+
+$color-dim-50: rgba(0,0,0,0.5);
+$color-dim-70: rgba(0,0,0,0.7);
+
+/**
+ * Utility Colors
+ * 1) Utility colors are colors used to provide feedback, such as alert messages,
+ * form validation, etc.
+ */
+$color-utility-positive: #03804d;
+$color-utility-postitive-subtle: #d4f3e6;
+$color-utility-caution: #a59b15;
+$color-utility-caution-subtle: #fffecf;
+$color-utility-negative: #b12a0b;
+$color-utility-negative-subtle: #fdded8;
+$color-utility-neutral: #0192d0;
+$color-utility-neutral-subtle: #d3f2ff;
+
+ /*
+  * Text Colors
+  * 1) These are non-linked text colors, such as body copy.
+  */
+$color-text: $color-black;
+$color-text-subtle: $color-gray-50;
+
+/*
+ * Heading Colors
+ * 1) These are non-linked heading colors, such as h2, h3, etc.
+ */
+$color-heading: $color-black;
+$color-heading-accent: $color-gray-87;
+
+/*
+ * Text Link Colors
+ * 1) These are for linked text, such as a link found within an article,
+ *    navigation link, footer link, etc.
+ */
+$color-text-link: $color-gray-87;
+$color-text-link-hover: $color-gray-73;
+$color-text-link-visited: $color-black;
+$color-text-link-active: $color-gray-87;
+
+$color-text-link-light: $color-white;
+$color-text-link-light-hover: $color-white;
+$color-text-link-light-visited: $color-white;
+
+/*
+ * Border Colors
+ * 1) Border colors are used as decoration or dividers, such as as a seperator
+ *    for navigation items, block borders, etc.
+ */
+$color-border: $color-gray-50;
+
+
+
+
+
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+$avenir-light : "Avenir LT W01_35 Light", sans-serif;
+$avenir-light-italic : "Avenir LT W01_35 Light Oblique", sans-serif;
+
+$avenir-book : "Avenir LT W01_45 Book1475508", sans-serif;
+$avenir-book-italic : "Avenir LT W01_45 Book O1475514", sans-serif;
+
+$avenir-med : "Avenir LT W01_65 Medium1475532", sans-serif;
+$avenir-med-italic : "Avenir LT W01_65 Medium1475538", sans-serif;
+
+$avenir-hvy : "Avenir LT W01_85 Heavy1475544", sans-serif;
+$avenir-hvy-italic : "Avenir LT W01_85 Heavy_1475550", sans-serif;
+
+$avenir-black : "Avenir LT W01_95 Black", sans-serif;
+$avenir-black-italic : "Avenir LT W01_95 Black Oblique", sans-serif;
+
+$font-size : 1em !default; 
+
+$font-size-xsm : 0.625rem;
+$font-size-sm : 0.75rem;
+$font-size-sm-2 : 0.875rem;
+$font-size-med : 1rem;
+$font-size-med-2: 1.125rem;
+$font-size-lrg : 1.375rem;
+$font-size-xl : 1.625rem;
+$font-size-xxl : 2rem;
+$font-size-3xl : 2.5rem;
+$font-size-jumbo  : 3rem;
+
+$font-line-height : $font-size * 1.5 ;
+
+
+
+
+@font-face{
+    font-family:"Avenir LT W01_45 Book1475508";
+    src:url("https://fonts.gopenske.com/avenir/710789a0-1557-48a1-8cec-03d52d663d74.eot?#iefix");
+    src:url("https://fonts.gopenske.com/avenir/710789a0-1557-48a1-8cec-03d52d663d74.eot?#iefix") format("eot"),url("fonts/avenir/065a6b14-b2cc-446e-9428-271c570df0d9.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/65d75eb0-2601-4da5-a9a4-9ee67a470a59.woff") format("woff"),url("https://fonts.gopenske.com/avenir/c70e90bc-3c94-41dc-bf14-caa727c76301.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/0979215b-3a1b-4356-9c76-e90fa4551f1d.svg#0979215b-3a1b-4356-9c76-e90fa4551f1d") format("svg");
+    font-weight:100;
+    font-style:normal;
+}
+    
+
+@font-face{
+    font-family:"Avenir LT W01_45 Book O1475514";
+    src:url("https://fonts.gopenske.com/avenir/d8c50fcc-bc32-4f31-8c24-b170c64e2254.eot?#iefix");
+    src:url("https://fonts.gopenske.com/avenir/d8c50fcc-bc32-4f31-8c24-b170c64e2254.eot?#iefix") format("eot"),url("fonts/avenir/476612d9-282d-4f76-95cd-b4dd31e7ed21.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/f1ebae2b-5296-4244-8771-5f40e60a564a.woff") format("woff"),url("https://fonts.gopenske.com/avenir/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/d0a3e813-1257-4b66-812a-36101faa0fb3.svg#d0a3e813-1257-4b66-812a-36101faa0fb3") format("svg");
+    font-weight:200;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"Avenir LT W01_65 Medium1475532";
+    src:url("https://fonts.gopenske.com/avenir/e0542193-b2e6-4273-bc45-39d4dfd3c15b.eot?#iefix");
+    src:url("https://fonts.gopenske.com/avenir/e0542193-b2e6-4273-bc45-39d4dfd3c15b.eot?#iefix") format("eot"),url("fonts/avenir/17b90ef5-b63f-457b-a981-503bb7afe3c0.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/c9aeeabd-dd65-491d-b4be-3e0db9ae47a0.woff") format("woff"),url("https://fonts.gopenske.com/avenir/25f994de-d13f-4a5d-a82b-bf925a1e054d.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/3604edbd-784e-4ca7-b978-18836469c62d.svg#3604edbd-784e-4ca7-b978-18836469c62d") format("svg");
+    font-weight:300;
+    font-style:normal;}
+
+@font-face{
+    font-family:"Avenir LT W01_65 Medium1475538";
+    src:url("https://fonts.gopenske.com/avenir/cebcf56a-ea7e-4f5c-8110-a7ee367c1f91.eot?#iefix");
+    src:url("https://fonts.gopenske.com/avenir/cebcf56a-ea7e-4f5c-8110-a7ee367c1f91.eot?#iefix") format("eot"),url("fonts/avenir/deb5e718-7abb-4df3-9365-edfa95317090.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/04801919-17ee-4c6b-8b17-eb1965cb3ed6.woff") format("woff"),url("https://fonts.gopenske.com/avenir/cee053ec-4b41-4506-a1fe-796261690610.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/38a556e4-b6e5-48c6-aece-b1d470af124e.svg#38a556e4-b6e5-48c6-aece-b1d470af124e") format("svg");
+    font-weight:500;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"Avenir LT W01_85 Heavy1475544";
+    src:url("https://fonts.gopenske.com/avenir/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix");
+    src:url("https://fonts.gopenske.com/avenir/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix") format("eot"),url("fonts/avenir/d513e15e-8f35-4129-ad05-481815e52625.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/61bd362e-7162-46bd-b67e-28f366c4afbe.woff") format("woff"),url("https://fonts.gopenske.com/avenir/ccd17c6b-e7ed-4b73-b0d2-76712a4ef46b.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/20577853-40a7-4ada-a3fb-dd6e9392f401.svg#20577853-40a7-4ada-a3fb-dd6e9392f401") format("svg");
+    font-weight:700;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"Avenir LT W01_85 Heavy_1475550";
+    src:url("https://fonts.gopenske.com/avenir/e6b412d9-d1ed-4b17-bb93-a6911df8640d.eot?#iefix");
+    src:url("https://fonts.gopenske.com/avenir/e6b412d9-d1ed-4b17-bb93-a6911df8640d.eot?#iefix") format("eot"),url("fonts/avenir/3c210c80-960f-4684-850b-25390b4d08af.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/cb5c71ad-e582-4d00-929c-67fbfaeb1c27.woff") format("woff"),url("https://fonts.gopenske.com/avenir/9ced8e96-4602-4507-8c20-4ff381949a9a.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/a7c1d112-7546-459d-a153-1467481298bd.svg#a7c1d112-7546-459d-a153-1467481298bd") format("svg");
+    font-weight:900;
+    font-style:normal;
+}
+@font-face{
+    font-family:"Avenir LT W01_95 Black";
+    src:url("https://fonts.gopenske.com/avenir/");
+    src:url("https://fonts.gopenske.com/avenir/") format("eot"),url("https://fonts/avenir/c78eb7af-a1c8-4892-974b-52379646fef4.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/75b36c58-2a02-4057-a537-09af0832ae46.woff") format("woff"),url("https://fonts.gopenske.com/avenir/b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/") format("svg");
+    font-weight:900;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"Avenir LT W01_95 Black Oblique";
+    src:url("https://fonts.gopenske.com/avenir/");
+    src:url("https://fonts.gopenske.com/avenir/") format("eot"),url("https://fonts/avenir/a2477e08-09d9-4d4b-97a9-23a1e22cb44c.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/19d12bba-92b1-43ad-9bab-cd36a4195c2a.woff") format("woff"),url("https://fonts.gopenske.com/avenir/5ba5a010-7470-4d9d-8a49-2920dc1be1f8.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/") format("svg");
+    font-weight:900;
+    font-style:normal;
+}
+@font-face{
+    font-family:"Avenir LT W01_35 Light";
+    src:url("https://fonts.gopenske.com/avenir/");
+    src:url("https://fonts.gopenske.com/avenir/") format("eot"),url("https://fonts/avenir/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"),url("https://fonts.gopenske.com/avenir/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/") format("svg");
+    font-weight:100;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"Avenir LT W01_35 Light Oblique";
+    src:url("https://fonts.gopenske.com/avenir/");
+    src:url("https://fonts.gopenske.com/avenir/") format("eot"),url("https://fonts/avenir/a59168c1-917d-4de9-a244-0316c057c357.woff2") format("woff2"),url("https://fonts.gopenske.com/avenir/6dc0e7d8-9284-44e1-8f05-984a41daa3a4.woff") format("woff"),url("https://fonts.gopenske.com/avenir/2315df7a-8bc2-433d-bf0a-162fc0063de0.ttf") format("truetype"),url("https://fonts.gopenske.com/avenir/") format("svg");
+    font-weight:100;
+    font-style:normal;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+$l-max-width: 80em;
+
+/**
+ * Spacing Defaults
+ */
+$space : 1em;
+$space-and-half : $space*1.5;
+$space-double : $space*2;
+$space-quad : $space*4;
+$space-half : $space/2;
+$pad : 1em;
+$pad-and-half : $pad*1.5;
+$pad-double : $pad*2;
+$pad-half : $pad/2;
+$pad-quarter :$pad/4;
+
+
+
+
+
+/*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+
+/**
+ * Border Width
+ */
+$border-med: 3px;
+$border-thick: 7px;
+
+/**
+ * Border Radius
+ */
+$border-radius: 6px;
+
+
+
+
+
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+
+/**
+ * Animation Duration
+ */
+$anim-speed-quick: 0.2s;
+
+/**
+ * Animation Easing
+ */
+$anim-ease: ease;
+
+
+
+
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
+
+/**
+ * Breakpoints
+ */
+$bp-small : 24em;
+$bp-small-2 : 29.75em;
+$bp-small-3 : 39.8em;
+$bp-med : 46.8em;
+$bp-med-2 : 48em;
+$bp-large : 50em;
+$bp-large-2 : 66em;
+$bp-xl : 73em;
+$bp-xxl : 89em;
+$bp-xxxl : 93em;

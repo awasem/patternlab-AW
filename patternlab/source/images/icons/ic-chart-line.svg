@@ -1,0 +1,6 @@
+<svg id="ic-chart-line" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <path id="Path_37370" data-name="Path 37370" d="M3.677-17.323a.5.5,0,0,0,.707,0L6-18.939l2.647,2.647a.5.5,0,0,0,.707,0L12.8-19.737l.922.922a.75.75,0,0,0,1.28-.53V-22.5a.5.5,0,0,0-.5-.5H11.346a.75.75,0,0,0-.53,1.28l.922.922L9-18.061,6.353-20.707a.5.5,0,0,0-.707,0L3.323-18.384a.5.5,0,0,0,0,.707ZM15.5-13.5H1.5v-10A.5.5,0,0,0,1-24H.5a.5.5,0,0,0-.5.5V-13a1,1,0,0,0,1,1H15.5a.5.5,0,0,0,.5-.5V-13A.5.5,0,0,0,15.5-13.5Z" transform="translate(0 26)" fill="#FFFFFF"/>
+  <g id="ic_bounding_box">
+    <rect id="ic_bounding_box-2" data-name="ic_bounding_box" width="16" height="16" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+/* -------------------------------------------*\
+ 
+#nav styles
+
+\*-------------------------------------------*/
+
+nav {
+    background-color: $primary-bg;
+    width: 272px;
+
+}
+
+// nav li {
+//     height: 72px;
+//     padding-left: 16px;
+//     display: grid;
+//     align-items: center;
+//     grid-template-columns: repeat(2, min-content);
+//     grid-gap: 8px;
+    
+// }
+nav li {
+    font-size: $font-size-med;
+}
+nav a {
+    color: $primary-white;
+    text-decoration: none;
+    display: grid;
+    // grid-column: 2;
+    // width: 200px;
+    text-align: left;
+}
+
+nav a:hover {
+    color: $primary-white
+}
+
+
+nav li:hover {
+    color: $primary-white;
+    background-color: $secondary-blue;
+}
+
+ul.c-noBullets {
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+
+.c-nav-icon {
+    width: 24px;
+    height: 24px;
+    color: $primary-white;
+    float: left;
+    display: grid;
+    align-items: center;
+    grid-column: (1, 24px);
+}
+
+
+.c-nav-header {
+    height: 72px;
+    padding-left: 16px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, min-content);
+    grid-gap: 8px;
+
+}
+.c-nav-hamburger {
+    width: 24px;
+    height: 24px;
+    color: $primary-white;
+    float: left;
+    display: grid;
+    align-items: center;
+    grid-column: (1, 24px);
+}
+
+nav hr {
+    display: block;
+    width: 99%;
+    border: 1px solid #1A2959;
+    margin: 0px;
+}
+

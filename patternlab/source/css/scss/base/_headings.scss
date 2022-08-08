@@ -1,0 +1,195 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+/**
+ * Heading 1
+ */
+h1  {
+	// @include font-size(6, large);
+	font-size: $font-size-jumbo;
+	line-height: $font-line-height;
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	// @include font-size(4);
+	font-size: $font-size-3xl;
+}
+
+/**
+ * Heading 3
+ */
+h3  {
+	font-size: $font-size-xxl;
+}
+
+/**
+ * Heading 4
+ */
+h4  {
+	font-size: $font-size-xl;
+
+}
+
+/**
+ * Heading 5 26 med
+ */
+h5 {
+	font-size: $font-size-lrg;
+
+}
+
+/**
+ * Heading 6
+ */
+h6 {
+	font-size: $font-size-med-2;
+
+}
+
+
+
+/**
+ * Subheading
+ */
+.subheading {
+	// font-family: $font-secondary;
+	font-weight: normal;
+}
+
+.font-xsm {
+	font-family: $avenir-book;
+	font-size: $font-size-xsm;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-sm {
+	font-family: $avenir-book;
+	font-size: $font-size-sm;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-sm-2 {
+	font-family: $avenir-book;
+	font-size: $font-size-sm-2;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-med-book {
+	font-family: $avenir-book;
+	font-size: $font-size-med;
+	line-height: $font-line-height;
+	// font-weight: 100;
+	color: $primary-blue;
+}
+.font-med-book-italic {
+	font-family: $avenir-book-italic;
+	font-size: $font-size-med;
+	// font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-med-med {
+	font-family: $avenir-med;
+	font-size: $font-size-med;
+	// font-weight: 100;
+	color: $primary-blue;
+}
+.font-med-med-italic {
+	font-family: $avenir-med-italic;
+	font-size: $font-size-med;
+	// font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-med-hvy {
+	font-family: $avenir-hvy;
+	font-size: $font-size-med;
+	// font-weight: 100;
+	color: $primary-blue;
+}
+.font-med-hvy-italic {
+	font-family: $avenir-hvy-italic;
+	font-size: $font-size-med;
+	// font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-med-2 {
+	font-family: $avenir-book;
+	font-size: $font-size-med-2;
+	line-height: $font-line-height;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-lrg {
+	font-family: $avenir-book;
+	font-size: $font-size-lrg;
+	line-height: $font-line-height;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-xl {
+	font-family: $avenir-book;
+	font-size: $font-size-xl;
+	line-height: $font-line-height;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-xxl {
+	font-family: $avenir-book;
+	font-size: $font-size-xxl;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-3xl {
+	font-family: $avenir-book;
+	font-size: $font-size-3xl;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-jumbo {
+	font-family: $avenir-book;
+	font-size: $font-size-jumbo;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-light {
+	font-family: $avenir-light;
+	font-size: $font-size-jumbo;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-light-italic {
+	font-family: $avenir-light-italic;
+	font-size: $font-size-jumbo;
+	font-weight: 100;
+	color: $primary-blue;
+}
+
+.font-black {
+	font-family: $avenir-black;
+	font-size: $font-size-jumbo;
+	font-weight: 900;
+	color: $primary-blue;
+}
+
+.font-black-italic {
+	font-family: $avenir-black-italic;
+	font-size: $font-size-jumbo;
+	font-weight: 900;
+	color: $primary-blue;
+}

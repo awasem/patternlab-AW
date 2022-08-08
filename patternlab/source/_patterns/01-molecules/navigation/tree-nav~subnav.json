@@ -1,0 +1,212 @@
+{
+    "navigation": [
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Overview",
+                    "modifyer": "c-tree-nav__link-is-active",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-home.svg",
+                            "alt": "Alta"
+                        }
+                    ],
+                    "treeSubNav": true,
+                    "treeSubNavItems": [
+                        {
+                            "url": "#",
+                            "label": "Hello"
+                        },
+                        {
+                            "url": "#",
+                            "label": "Beautiful"
+                        },
+                        {
+                            "url": "#",
+                            "label": "World"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Maintenance",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-wrench.svg",
+                            "alt": "Home"  
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "24/7 Roadside Assistance",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-service-truck-custom.svg",
+                            "alt": "Home"   
+                        }
+                    ],
+                    "treeSubNav": false,
+                    "treeSubNavItems": [
+                        {
+                            "url": "#",
+                            "label": "Hello"
+                        },
+                        {
+                            "url": "#",
+                            "label": "Beautiful"
+                        },
+                        {
+                            "url": "#",
+                            "label": "World"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Maintenance Billing",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-file-invoice-dollar.svg",
+                            "alt": "Home"   
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Distance & Hours Billing",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-file-invoice.svg",
+                            "alt": "Home"  
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Browse Units",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-truck-container.svg",
+                            "alt": "Home"   
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "All Groups",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-layer-group.svg",
+                            "alt": "Home"   
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Locations",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-map-marker-alt.svg",
+                            "alt": "Home"   
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Reports",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-chart-line.svg",
+                            "alt": "Home"   
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Whats New",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-gift.svg",
+                            "alt": "Home"   
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        },
+        {
+            "treeNavItems": [
+                {
+                    "url": "#",
+                    "label": "Invoicing",
+                    "treeNavIcon": true,
+                    "icon": [
+                        {
+                            "src": "../../images/icons/ic-gift.svg",
+                            "alt": "Home"   
+                        }
+                    ],
+                    "treeSubNav": false
+                }
+            ]
+        }
+         
+                
+    ]
+}
+ 
